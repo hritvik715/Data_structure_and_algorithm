@@ -14,8 +14,6 @@ int main()
     cout<<drr[0]<<endl;
     cout<<crr[5]<<endl;
 
-
-       
        
        
     return 0;
