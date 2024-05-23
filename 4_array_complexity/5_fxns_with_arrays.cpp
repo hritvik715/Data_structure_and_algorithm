@@ -1,9 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
-
-
 void print(int arr[] , int size){
     for(int i=0 ; i<size ; i++){
         cout<<arr[i]<<" ";
@@ -35,17 +32,25 @@ bool findTarget(int arr[] , int size , int target){
 
 int main()
 {
-    int arr[] = {2,5,6,3,7,8};
-    int size=5;
-    int target =5;
+    // int arr[] = {2,5,6,3,7,8};
+    // int size=5;
 
+    int arr[100];
+    int size;
+    cout<<"enter the number of elements"<<endl;
+    cin>>size;
+
+    for(int i=0 ; i<size ; i++){
+        cout<<"enter the input value for indxex: "<<i<<endl;
+        cin>>arr[i];
+    }
+    int target =5;
+    //imp->
     bool ans = findTarget(arr ,size,target);
     cout<<ans<<endl;
 
     // solve1(arr, size);
     // print(arr,size);
-       
-    1:51:19
 
 
     return 0;
