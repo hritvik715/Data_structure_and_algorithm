@@ -1,6 +1,7 @@
 #include<iostream>
 #include<algorithm>
 #include<limits.h>
+#include<vector>
 using namespace std;
 
 int main() {
@@ -26,8 +27,8 @@ int main() {
 
 
    
-    int a=10;  
-    cout<<++a;
+    // int a=10;  
+    // cout<<++a;
 
     // cout<<(++a)*(++a);
 
@@ -35,7 +36,9 @@ int main() {
 
 
 
-
+    int arr[] = {2,3,5,6,8,9};
+    cout<<arr<<endl;
+    
 
 
 
