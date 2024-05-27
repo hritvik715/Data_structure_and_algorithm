@@ -26,6 +26,10 @@ int main()
     //     cout<<endl;
     // }
 
+    int a[10];
+    // cout<<sizeof(a);
+    0[a] = 0;
+    cout<<0[a];
       
        
     return 0;
